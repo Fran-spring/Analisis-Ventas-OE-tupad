@@ -1,0 +1,39 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos temporales de Colab y Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Credenciales y tokens (nunca subir al repo)
+*.token
+*.env
+secrets.txt
+credentials.json
+token.txt
+
+# Archivos de Excel que no son parte del proyecto
+*.xlsx
+*.xls
+
+# Caché de herramientas
+.pytest_cache/
+dist/
+build/
